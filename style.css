@@ -34,7 +34,10 @@ input:focus,
 textarea:focus {
     border: 3px solid #555;
 }
-
+.form-group.required .col-form-label:after { 
+   content:"*";
+   color:red;
+}
 input:hover,
 textarea:hover,
 .hoverable:hover {
