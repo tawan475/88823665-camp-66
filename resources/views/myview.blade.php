@@ -20,7 +20,7 @@
     <main>
 
         <div class="container">
-            <h1>Workshop #LARAVEL - MULTABLE</h1>
+            <h1>Workshop #LARAVEL - FORM</h1>
             <form action="{{url('/mycontroller')}}"
                 method="post">
                 @csrf
