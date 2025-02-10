@@ -699,7 +699,7 @@
                                                             @csrf
                                                             @method('delete')
                                                             <input type="hidden" name="id" value="{{$user -> id}}">
-                                                            <button class="btn btn-danger"> delete </button>
+                                                            <button class="btn btn-danger" onclick="confirmDelete(event);"> delete </button>
                                                         </form>
                                                     </td>
                                                 </tr>
@@ -771,6 +771,31 @@
                 });
             }
         });
+    </script>
+    <script>
+        function confirmDelete(e) {
+            e.preventDefault();
+            console.log(e)
+            Swal.fire({
+                title: "Are you sure?",
+                text: "You won't be able to revert this!",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Yes, delete it!"
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    Swal.fire({
+                        title: "Deleted!",
+                        text: "Your file has been deleted.",
+                        icon: "success"
+                    }).then(() => {
+                        e.target.form.submit();
+                    });
+                }
+            });
+        };
     </script>
     <!--end::OverlayScrollbars Configure-->
     <!--end::Script-->
