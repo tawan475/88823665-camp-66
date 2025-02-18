@@ -23,7 +23,7 @@ CAMP-66 | Login
             <?php
             }
             ?>
-            <form action="{{ url('/login')}}" method="post">
+            <form action="{{ url('/')}}" method="post">
                 @csrf
                 <div class="input-group mb-3">
                     <input type="email" class="form-control" placeholder="Email" />
