@@ -35,7 +35,7 @@
     <!--
     <link rel="stylesheet" href="../../../dist/css/adminlte.css" />
     -->
-    <link rel="stylesheet" href="{{ url('css/adminlte.css') }}" />
+    <link rel="stylesheet" href="{{ url('assets/css/adminlte.css') }}" />
 
     @yield('styles')
   </head>
