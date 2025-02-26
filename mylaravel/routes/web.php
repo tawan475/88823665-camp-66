@@ -26,7 +26,7 @@ Route::post('/mycontroller/{id?}',
 //     return view('layouts.default');
 // });
 Route::get('/',
-[HomeController::class,'index'])->middleware([CheckLogin::class]);
+[HomeController::class,'index'])->middleware([CheckLogin::class, 'handle']);
 
 Route::get('/home',function(){
     return view('home');
