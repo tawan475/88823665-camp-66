@@ -151,7 +151,7 @@
                     <li class="nav-item dropdown user-menu">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
                             <img
-                                src="{{url('public/assets/img/user2-160x160.jpg')}}"
+                                src="{{url('assets/img/user2-160x160.jpg')}}"
                                 class="user-image rounded-circle shadow"
                                 alt="User Image" />
                             <span class="d-none d-md-inline">Alexander Pierce</span>
@@ -160,7 +160,7 @@
                             <!--begin::User Image-->
                             <li class="user-header text-bg-primary">
                                 <img
-                                    src="{{url('public/assets/img/user2-160x160.jpg')}}"
+                                    src="{{url('assets/img/user2-160x160.jpg')}}"
                                     class="rounded-circle shadow"
                                     alt="User Image" />
                                 <p>
@@ -203,7 +203,7 @@
                 <a href="../index.html" class="brand-link">
                     <!--begin::Brand Image-->
                     <img
-                        src="{{url('public/assets/img/AdminLTELogo.png')}}"
+                        src="{{url('assets/img/AdminLTELogo.png')}}"
                         alt="AdminLTE Logo"
                         class="brand-image opacity-75 shadow" />
                     <!--end::Brand Image-->
@@ -764,7 +764,7 @@
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
     <!--end::Required Plugin(Bootstrap 5)--><!--begin::Required Plugin(AdminLTE)-->
-    <script src="{{ url('public/assets/js/adminlte.js') }}"></script>
+    <script src="{{ url('assets/js/adminlte.js') }}"></script>
     <!--end::Required Plugin(AdminLTE)--><!--begin::OverlayScrollbars Configure-->
     <script>
         const SELECTOR_SIDEBAR_WRAPPER = '.sidebar-wrapper';

@@ -40,7 +40,7 @@ CAMP-66 | Dashboard
                   <!--begin::Message-->
                   <div class="d-flex">
                     <div class="flex-shrink-0">
-                        <img src="{{url('public/assets/img/user1-128x128.jpg')}}" alt="User Avatar" class="img-size-50 rounded-circle me-3" />
+                        <img src="{{url('assets/img/user1-128x128.jpg')}}" alt="User Avatar" class="img-size-50 rounded-circle me-3" />
                     </div>
                     <div class="flex-grow-1">
                       <h3 class="dropdown-item-title">
@@ -63,7 +63,7 @@ CAMP-66 | Dashboard
                   <div class="d-flex">
                     <div class="flex-shrink-0">
                       <img
-                        src="{{url('public/assets/img/user8-128x128.jpg')}}"
+                        src="{{url('assets/img/user8-128x128.jpg')}}"
                         alt="User Avatar"
                         class="img-size-50 rounded-circle me-3"
                       />
@@ -88,7 +88,7 @@ CAMP-66 | Dashboard
                   <!--begin::Message-->
                   <div class="d-flex">
                     <div class="flex-shrink-0">
-                      <img src="{{url('public/assets/img/ser3-128x128.jpg')}}" alt="User Avatar" class="img-size-50 rounded-circle me-3"
+                      <img src="{{url('assets/img/ser3-128x128.jpg')}}" alt="User Avatar" class="img-size-50 rounded-circle me-3"
                       />
                     </div>
                     <div class="flex-grow-1">
@@ -151,7 +151,7 @@ CAMP-66 | Dashboard
             <li class="nav-item dropdown user-menu">
               <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
                 <img
-                  src="{{url('public/assets/img/user2-160x160.jpg')}}"
+                  src="{{url('assets/img/user2-160x160.jpg')}}"
                   class="user-image rounded-circle shadow"
                   alt="User Image"
                 />
@@ -161,7 +161,7 @@ CAMP-66 | Dashboard
                 <!--begin::User Image-->
                 <li class="user-header text-bg-primary">
                   <img
-                    src="{{url('public/assets/img/AdminLTELogo.png')}}"
+                    src="{{url('assets/img/AdminLTELogo.png')}}"
                     class="rounded-circle shadow"
                     alt="User Image"
                   />
@@ -205,7 +205,7 @@ CAMP-66 | Dashboard
           <a href="{{url('dashboard')}}" class="brand-link">
             <!--begin::Brand Image-->
             <img
-              src="{{url('public/assets/img/AdminLTELogo.png')}}"
+              src="{{url('assets/img/AdminLTELogo.png')}}"
               alt="AdminLTE Logo"
               class="brand-image opacity-75 shadow"
             />
@@ -840,7 +840,7 @@ CAMP-66 | Dashboard
                         <!-- /.direct-chat-infos -->
                         <img
                           class="direct-chat-img"
-                          src="{{url('public/assets/img/user1-128x128.jpg')}}"
+                          src="{{url('assets/img/user1-128x128.jpg')}}"
                           alt="message user image"
                         />
                         <!-- /.direct-chat-img -->
@@ -859,7 +859,7 @@ CAMP-66 | Dashboard
                         <!-- /.direct-chat-infos -->
                         <img
                           class="direct-chat-img"
-                          src="{{url('public/assets/img/user3-128x128.jpg')}}"
+                          src="{{url('assets/img/user3-128x128.jpg')}}"
                           alt="message user image"
                         />
                         <!-- /.direct-chat-img -->
@@ -876,7 +876,7 @@ CAMP-66 | Dashboard
                         <!-- /.direct-chat-infos -->
                         <img
                           class="direct-chat-img"
-                          src="{{url('public/assets/img/user1-128x128.jpg')}}"
+                          src="{{url('assets/img/user1-128x128.jpg')}}"
                           alt="message user image"
                         />
                         <!-- /.direct-chat-img -->
@@ -895,7 +895,7 @@ CAMP-66 | Dashboard
                         <!-- /.direct-chat-infos -->
                         <img
                           class="direct-chat-img"
-                          src="{{url('public/assets/img/user3-128x128.jpg')}}"
+                          src="{{url('assets/img/user3-128x128.jpg')}}"
                           alt="message user image"
                         />
                         <!-- /.direct-chat-img -->
@@ -912,7 +912,7 @@ CAMP-66 | Dashboard
                           <a href="#">
                             <img
                               class="contacts-list-img"
-                              src="{{url('public/assets/img/user1-128x128.jpg')}}"
+                              src="{{url('assets/img/user1-128x128.jpg')}}"
                               alt="User Avatar"
                             />
                             <div class="contacts-list-info">
@@ -930,7 +930,7 @@ CAMP-66 | Dashboard
                           <a href="#">
                             <img
                               class="contacts-list-img"
-                              src="{{url('public/assets/img/user7-128x128.jpg')}}"
+                              src="{{url('assets/img/user7-128x128.jpg')}}"
                               alt="User Avatar"
                             />
                             <div class="contacts-list-info">
@@ -948,7 +948,7 @@ CAMP-66 | Dashboard
                           <a href="#">
                             <img
                               class="contacts-list-img"
-                              src="{{url('public/assets/img/user3-128x128.jpg')}}"
+                              src="{{url('assets/img/user3-128x128.jpg')}}"
                               alt="User Avatar"
                             />
                             <div class="contacts-list-info">
@@ -966,7 +966,7 @@ CAMP-66 | Dashboard
                           <a href="#">
                             <img
                               class="contacts-list-img"
-                              src="{{url('public/assets/img/user5-128x128.jpg')}}"
+                              src="{{url('assets/img/user5-128x128.jpg')}}"
                               alt="User Avatar"
                             />
                             <div class="contacts-list-info">
@@ -984,7 +984,7 @@ CAMP-66 | Dashboard
                           <a href="#">
                             <img
                               class="contacts-list-img"
-                              src="{{url('public/assets/img/user6-128x128.jpg')}}"
+                              src="{{url('assets/img/user6-128x128.jpg')}}"
                               alt="User Avatar"
                             />
                             <div class="contacts-list-info">
@@ -1002,7 +1002,7 @@ CAMP-66 | Dashboard
                           <a href="#">
                             <img
                               class="contacts-list-img"
-                              src="{{url('public/assets/img/user8-128x128.jpg')}}"
+                              src="{{url('assets/img/user8-128x128.jpg')}}"
                               alt="User Avatar"
                             />
                             <div class="contacts-list-info">
