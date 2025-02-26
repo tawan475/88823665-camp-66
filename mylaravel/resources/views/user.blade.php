@@ -1,4 +1,4 @@
-@extends('Layouts.default')
+@extends('layouts.default')
 
 <body class="layout-fixed sidebar-expand-lg bg-body-tertiary">
     <!--begin::App Wrapper-->
