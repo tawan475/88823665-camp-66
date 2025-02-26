@@ -8,7 +8,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ProductController;
-use App\Http\Middleware\Checklogin;
+use App\Http\Middleware\CheckLogin;
 
 Route::get('/', function () {
     return view('welcome');
