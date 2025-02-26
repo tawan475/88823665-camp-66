@@ -23,14 +23,14 @@ CAMP-66 | Login
             <?php
             }
             ?>
-            <form action="{{ url('/login')}}" method="post">
+            <form action="{{ url('/login') }}" method="post">
                 @csrf
                 <div class="input-group mb-3">
-                    <input type="email" class="form-control" placeholder="Email" />
+                    <input id="email" name="email" type="email" class="form-control" placeholder="email" />
                     <div class="input-group-text"><span class="bi bi-envelope"></span></div>
                 </div>
                 <div class="input-group mb-3">
-                    <input type="password" class="form-control" placeholder="Password" />
+                    <input id="password" name="password" type="password" class="form-control" placeholder="Password" />
                     <div class="input-group-text"><span class="bi bi-lock-fill"></span></div>
                 </div>
                 <!--begin::Row-->
